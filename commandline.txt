@@ -1,0 +1,1 @@
+cat cloudcompulab2.txt | python3 mapper.py | sort -n |python3  reducer.py |python3  sql_conn.py
